@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appsnipp.messagnerTesting.ChartActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView_ChatActvity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/activity_other_user_message_row" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_user_send_text"
+            android:layout_width="279dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_stroke"
+            android:hint="Aa"
+            android:inputType="textPersonName"
+            android:paddingLeft="9dp" />
+
+        <Button
+            android:id="@+id/button_user_send_text"
+            android:layout_width="44dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.0"
+            android:background="@drawable/ic_baseline_send_24" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

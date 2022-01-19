@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421028324820",
+    "project_id": "messangercomplete",
+    "storage_bucket": "messangercomplete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421028324820:android:d839558079f7b55cd56241",
+        "android_client_info": {
+          "package_name": "com.appsnipp.messagnerTesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421028324820-42hs8oip2uctihm2b76715hlmkmrqshm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArJWcW0By7XRx-ztY-ddrXUkOWNnat3g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421028324820-42hs8oip2uctihm2b76715hlmkmrqshm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
